@@ -1,0 +1,350 @@
+{
+  "prepared_examples": 484,
+  "skipped_examples": 16,
+  "hop_distribution": {
+    "1": 256,
+    "2": 210,
+    "3": 18
+  },
+  "schema_triple_count": 24,
+  "schema_triples": [
+    {
+      "id": 0,
+      "source": "Anatomy",
+      "relationship": "DOWNREGULATES_AdG",
+      "target": "Gene"
+    },
+    {
+      "id": 1,
+      "source": "Anatomy",
+      "relationship": "EXPRESSES_AeG",
+      "target": "Gene"
+    },
+    {
+      "id": 2,
+      "source": "Anatomy",
+      "relationship": "UPREGULATES_AuG",
+      "target": "Gene"
+    },
+    {
+      "id": 3,
+      "source": "Compound",
+      "relationship": "BINDS_CbG",
+      "target": "Gene"
+    },
+    {
+      "id": 4,
+      "source": "Compound",
+      "relationship": "CAUSES_CcSE",
+      "target": "SideEffect"
+    },
+    {
+      "id": 5,
+      "source": "Compound",
+      "relationship": "DOWNREGULATES_CdG",
+      "target": "Gene"
+    },
+    {
+      "id": 6,
+      "source": "Compound",
+      "relationship": "PALLIATES_CpD",
+      "target": "Disease"
+    },
+    {
+      "id": 7,
+      "source": "Compound",
+      "relationship": "RESEMBLES_CrC",
+      "target": "Compound"
+    },
+    {
+      "id": 8,
+      "source": "Compound",
+      "relationship": "TREATS_CtD",
+      "target": "Disease"
+    },
+    {
+      "id": 9,
+      "source": "Compound",
+      "relationship": "UPREGULATES_CuG",
+      "target": "Gene"
+    },
+    {
+      "id": 10,
+      "source": "Disease",
+      "relationship": "ASSOCIATES_DaG",
+      "target": "Gene"
+    },
+    {
+      "id": 11,
+      "source": "Disease",
+      "relationship": "DOWNREGULATES_DdG",
+      "target": "Gene"
+    },
+    {
+      "id": 12,
+      "source": "Disease",
+      "relationship": "LOCALIZES_DlA",
+      "target": "Anatomy"
+    },
+    {
+      "id": 13,
+      "source": "Disease",
+      "relationship": "PRESENTS_DpS",
+      "target": "Symptom"
+    },
+    {
+      "id": 14,
+      "source": "Disease",
+      "relationship": "RESEMBLES_DrD",
+      "target": "Disease"
+    },
+    {
+      "id": 15,
+      "source": "Disease",
+      "relationship": "UPREGULATES_DuG",
+      "target": "Gene"
+    },
+    {
+      "id": 16,
+      "source": "Gene",
+      "relationship": "COVARIES_GcG",
+      "target": "Gene"
+    },
+    {
+      "id": 17,
+      "source": "Gene",
+      "relationship": "INTERACTS_GiG",
+      "target": "Gene"
+    },
+    {
+      "id": 18,
+      "source": "Gene",
+      "relationship": "PARTICIPATES_GpBP",
+      "target": "BiologicalProcess"
+    },
+    {
+      "id": 19,
+      "source": "Gene",
+      "relationship": "PARTICIPATES_GpCC",
+      "target": "CellularComponent"
+    },
+    {
+      "id": 20,
+      "source": "Gene",
+      "relationship": "PARTICIPATES_GpMF",
+      "target": "MolecularFunction"
+    },
+    {
+      "id": 21,
+      "source": "Gene",
+      "relationship": "PARTICIPATES_GpPW",
+      "target": "Pathway"
+    },
+    {
+      "id": 22,
+      "source": "Gene",
+      "relationship": "REGULATES_GrG",
+      "target": "Gene"
+    },
+    {
+      "id": 23,
+      "source": "PharmacologicClass",
+      "relationship": "INCLUDES_PCiC",
+      "target": "Compound"
+    }
+  ],
+  "most_common_gold_triples": [
+    {
+      "triple": [
+        "Compound",
+        "BINDS_CbG",
+        "Gene"
+      ],
+      "count": 89
+    },
+    {
+      "triple": [
+        "Compound",
+        "TREATS_CtD",
+        "Disease"
+      ],
+      "count": 70
+    },
+    {
+      "triple": [
+        "Gene",
+        "PARTICIPATES_GpBP",
+        "BiologicalProcess"
+      ],
+      "count": 58
+    },
+    {
+      "triple": [
+        "Gene",
+        "PARTICIPATES_GpPW",
+        "Pathway"
+      ],
+      "count": 57
+    },
+    {
+      "triple": [
+        "Gene",
+        "INTERACTS_GiG",
+        "Gene"
+      ],
+      "count": 46
+    },
+    {
+      "triple": [
+        "Gene",
+        "PARTICIPATES_GpMF",
+        "MolecularFunction"
+      ],
+      "count": 44
+    },
+    {
+      "triple": [
+        "Disease",
+        "PRESENTS_DpS",
+        "Symptom"
+      ],
+      "count": 42
+    },
+    {
+      "triple": [
+        "Compound",
+        "CAUSES_CcSE",
+        "SideEffect"
+      ],
+      "count": 36
+    },
+    {
+      "triple": [
+        "Compound",
+        "PALLIATES_CpD",
+        "Disease"
+      ],
+      "count": 34
+    },
+    {
+      "triple": [
+        "Gene",
+        "PARTICIPATES_GpCC",
+        "CellularComponent"
+      ],
+      "count": 29
+    },
+    {
+      "triple": [
+        "Disease",
+        "ASSOCIATES_DaG",
+        "Gene"
+      ],
+      "count": 29
+    },
+    {
+      "triple": [
+        "Gene",
+        "REGULATES_GrG",
+        "Gene"
+      ],
+      "count": 29
+    },
+    {
+      "triple": [
+        "PharmacologicClass",
+        "INCLUDES_PCiC",
+        "Compound"
+      ],
+      "count": 27
+    },
+    {
+      "triple": [
+        "Disease",
+        "LOCALIZES_DlA",
+        "Anatomy"
+      ],
+      "count": 25
+    },
+    {
+      "triple": [
+        "Compound",
+        "DOWNREGULATES_CdG",
+        "Gene"
+      ],
+      "count": 20
+    },
+    {
+      "triple": [
+        "Gene",
+        "COVARIES_GcG",
+        "Gene"
+      ],
+      "count": 20
+    },
+    {
+      "triple": [
+        "Anatomy",
+        "EXPRESSES_AeG",
+        "Gene"
+      ],
+      "count": 14
+    },
+    {
+      "triple": [
+        "Compound",
+        "UPREGULATES_CuG",
+        "Gene"
+      ],
+      "count": 14
+    },
+    {
+      "triple": [
+        "Disease",
+        "UPREGULATES_DuG",
+        "Gene"
+      ],
+      "count": 11
+    },
+    {
+      "triple": [
+        "Disease",
+        "DOWNREGULATES_DdG",
+        "Gene"
+      ],
+      "count": 11
+    },
+    {
+      "triple": [
+        "Compound",
+        "RESEMBLES_CrC",
+        "Compound"
+      ],
+      "count": 11
+    },
+    {
+      "triple": [
+        "Disease",
+        "RESEMBLES_DrD",
+        "Disease"
+      ],
+      "count": 8
+    },
+    {
+      "triple": [
+        "Anatomy",
+        "UPREGULATES_AuG",
+        "Gene"
+      ],
+      "count": 3
+    },
+    {
+      "triple": [
+        "Anatomy",
+        "DOWNREGULATES_AdG",
+        "Gene"
+      ],
+      "count": 3
+    }
+  ]
+}
